@@ -8,9 +8,21 @@
 
 Runtime config based on collection for Laravel
 
+## Requirements
+
+- `php: >=8.0`
+- `laravel/framework: ^9.0`
+
+## Installation
+
+```bash
+# Install the package
+composer require stepanenko3/laravel-runtime-config
+```
+
 ## Usage
 
-``` php
+```php
 use Stepanenko3\LaravelRuntimeConfig\Facades\RuntimeConfig;
 
 RuntimeConfig::putMany([
@@ -21,27 +33,14 @@ RuntimeConfig::get('demo'); // result: 100
 runtime_config('demo'); // result: 100
 ```
 
-## Install
-
-Via Composer
-
-``` bash
-$ composer require stepanenko3/laravel-runtime-config
-```
-
-## Minimum requirements
-
-- Laravel 9.0
-- PHP 8.0
-
 ## Credits
 
-- [Artem Stepanenko](http://github.io.com/stepanenko3)
-
-## License
-
-This package is licensed under the MIT License - see the `LICENSE` file for details
+- [Artem Stepanenko](https://github.com/stepanenko3)
 
 ## Contributing
 
-Pull requests and issues are welcome.
+Thank you for considering contributing to this package! Please create a pull request with your contributions with detailed explanation of the changes you are proposing.
+
+## License
+
+This package is open-sourced software licensed under the [MIT license](LICENSE.md).
