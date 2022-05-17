@@ -1,4 +1,4 @@
-# Runtime Store
+# Runtime Config
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/stepanenko3/laravel-runtime-config.svg?style=flat-square)](https://packagist.org/packages/stepanenko3/laravel-runtime-config)
 [![Total Downloads](https://img.shields.io/packagist/dt/stepanenko3/laravel-runtime-config.svg?style=flat-square)](https://packagist.org/packages/stepanenko3/laravel-runtime-config)
